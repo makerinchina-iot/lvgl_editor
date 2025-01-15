@@ -52,10 +52,10 @@ lv_obj_t * scratchpad_create(lv_obj_t * parent)
     lv_obj_set_flex_flow(lv_obj, LV_FLEX_FLOW_COLUMN);
     lv_obj_set_style_bg_color(lv_obj, lv_color_hex(0x114488), LV_PART_MAIN | LV_STATE_DEFAULT);
 
-    lv_obj_t * button_default_1 = button_default_create(lv_obj, "Hello");
+    lv_obj_t * button_default_1 = button_default_create(lv_obj, "Hello world");
     lv_obj_set_width(button_default_1, lv_pct(100));
 
-    lv_obj_t * button_default_2 = button_default_create(lv_obj, "Hello");
+    lv_obj_t * button_default_2 = button_default_create(lv_obj, "Hello2");
     lv_obj_set_width(button_default_2, lv_pct(100));
 
     lv_obj_t * button_default_3 = button_default_create(lv_obj, "Hello");
